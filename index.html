@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en-us"> 
+  <head>  
+  <meta charset="UTF-8"> 
+  <title>speedyspeech samples</title> 
+  <style> 
+    table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse;  
+  } 
+  th, td { 
+    padding: 15px; 
+  } 
+</style> 
+</head> 
+
+<body>
+<section>
+<header><h1>SpeedySpeech</h1> </header>
+<p>github 버전, MelGAN: pretrained 모델 사용. trainset/testset 구분 없이 모두 학습한듯</p>
+<p>ours: trainset으로 학습 </p>
+<table style="float:left">
+<tr>
+  <td> 
+   Ground truth
+ </td>
+<td> 
+   github + MelGAN 
+ </td>
+<td> 
+   github + HifiGAN 
+ </td>
+<td> 
+   HifiGAN recon
+ </td>
+<td> 
+   ours + HifiGAN
+ </td>
+<td> 
+   Transcript 
+ </td>
+
+</tr>
+
+<tr>
+  <td> 
+   <audio controls=""> 
+     <source src="https://raw.githubusercontent.com/aask1357/samples/master/audio/groundtruth0.wav" type="audio/wav" /> 
+   Your browser does not support the audio element. 
+   </audio> 
+ </td>
+<td> 
+   <audio controls=""> 
+     <source src="https://raw.githubusercontent.com/aask1357/samples/master/audio/github_melgan_0.wav" type="audio/wav" /> 
+   Your browser does not support the audio element. 
+   </audio> 
+ </td>
+<td> 
+   <audio controls=""> 
+     <source src="https://raw.githubusercontent.com/aask1357/samples/master/audio/github_hifigan_0.wav" type="audio/wav" /> 
+   Your browser does not support the audio element. 
+   </audio> 
+ </td>
+<td> 
+   <audio controls=""> 
+     <source src="https://raw.githubusercontent.com/aask1357/samples/master/audio/hifigan_0.wav" type="audio/wav" /> 
+   Your browser does not support the audio element. 
+   </audio> 
+ </td>
+<td> 
+   <audio controls=""> 
+     <source src="https://raw.githubusercontent.com/aask1357/samples/master/audio/ours_hifigan_0.wav" type="audio/wav" /> 
+   Your browser does not support the audio element. 
+   </audio> 
+ </td>
+<td> 
+   than in the same operations with ugly ones.
+ </td>
+
+</tr>
+
+</table>
+</section>
+</body>
+</html>
